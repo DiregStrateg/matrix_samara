@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Ubuntu', sans-serif;
 }
 a {
   text-decoration: none;
@@ -49,10 +50,20 @@ li {
 }
 .telefon {
   font-size: 26px; 
-  font-weight: bold; 
-  
+  font-weight: bold;   
 }
-
+.btn-sliders {
+  display: flex;
+  justify-content: center;
+}
+.btn-slider {
+  background-color:#4bb2ff;
+  color: #fff;
+  border: none;
+  padding: 3px 10px;
+  margin: 5px;
+  border-radius: 10%;
+}
 
 
 
