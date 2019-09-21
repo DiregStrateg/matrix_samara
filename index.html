@@ -47,9 +47,6 @@
             <div class="companies-hor-item"><img src=".\img\smartphone.jpg" alt=""></div>
           </div>
           <div class="btn-sliders">
-            <button class="btn-slider" id="test-left">
-              < </button> <button class="btn-slider" id="test-right"> >
-            </button>
           </div>
           
         </div>  
@@ -67,9 +64,9 @@
     const carousel = new SliderCarousel({
       main: '.companies-wrapper',
       wrap: '.companies-hor',
-      prev: '#test-left',
-      next: '#test-right',
-      slidesToShow: 4
+      btn: '.btn-sliders',
+      slidesToShow: 1,
+      infinity: true
     });
     carousel.init();
   </script>
