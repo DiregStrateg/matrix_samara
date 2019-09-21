@@ -74,6 +74,7 @@ li {
 .companies-hor-item {
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap;
 }
 .companies {
   display: flex;
