@@ -52,6 +52,13 @@ li {
   font-size: 26px; 
   font-weight: bold;   
 }
+.list-item {
+  display: flex;
+  align-items: center;
+}
+.list-item__name {
+  padding: 10px;
+}
 .btn-sliders {
   display: flex;
   justify-content: center;
@@ -63,6 +70,10 @@ li {
   padding: 3px 10px;
   margin: 5px;
   border-radius: 10%;
+}
+.companies-hor-item {
+  display: flex;
+  justify-content: space-around;
 }
 .companies {
   display: flex;
